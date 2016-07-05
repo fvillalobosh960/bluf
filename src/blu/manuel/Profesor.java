@@ -6,7 +6,7 @@
 package blu.manuel;
 
 import blu.fabian.Persona;
-import blu.utils.Grado;
+import blu.utils.enums.Grado;
 
 /**
  *

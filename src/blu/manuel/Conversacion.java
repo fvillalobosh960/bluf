@@ -27,5 +27,4 @@ public class Conversacion {
         this.fecha = fecha;
     }
     
-    
 }

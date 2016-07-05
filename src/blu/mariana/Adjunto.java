@@ -10,5 +10,13 @@ package blu.mariana;
  * @author mc_ro
  */
 public class Adjunto {
+    private String tipo;
+    private String url;
+
+    public Adjunto(String tipo, String url) {
+        this.tipo = tipo;
+        this.url = url;
+    }
+    
     
 }

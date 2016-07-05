@@ -5,10 +5,13 @@
  */
 package blu.mariana;
 
+import java.util.Date;
+
 /**
  *
  * @author mc_ro
  */
 public class Evento {
-    
+    private Date fecha;
+    private String titulo;
 }
