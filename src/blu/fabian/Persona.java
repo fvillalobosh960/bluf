@@ -12,6 +12,7 @@ import blu.allan.Contacto;
  * @author mc_ro
  */
 public class Persona extends Contacto {
+
     private String apellido;
     private boolean trabaja;
 
@@ -20,5 +21,26 @@ public class Persona extends Contacto {
         this.apellido = apellido;
         this.trabaja = trabaja;
     }
- 
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public boolean getTrabaja() {
+        return trabaja;
+    }
+
+    public void setTrabaja(boolean trabaja) {
+        this.trabaja = trabaja;
+    }
+
+    
+   
+
+    
+    
 }

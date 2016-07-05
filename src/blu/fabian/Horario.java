@@ -21,6 +21,30 @@ public class Horario {
         this.horaInicial = horaInicial;
         this.horaFinal = horaFinal;
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Date getHoraInicial() {
+        return horaInicial;
+    }
+
+    public void setHoraInicial(Date horaInicial) {
+        this.horaInicial = horaInicial;
+    }
+
+    public Date getHoraFinal() {
+        return horaFinal;
+    }
+
+    public void setHoraFinal(Date horaFinal) {
+        this.horaFinal = horaFinal;
+    }
     
     
     
