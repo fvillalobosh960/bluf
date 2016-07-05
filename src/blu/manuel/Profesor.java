@@ -5,10 +5,20 @@
  */
 package blu.manuel;
 
+import blu.fabian.Persona;
+import blu.utils.Grado;
+
 /**
  *
  * @author mc_ro
  */
-public class Profesor {
+public class Profesor extends Persona {
+    private Grado grado;
+
+    public Profesor(Grado grado, String apellido, boolean trabaja, String nombre, String telefono, String email) {
+        super(apellido, trabaja, nombre, telefono, email);
+        this.grado = grado;
+    }
+    
     
 }
