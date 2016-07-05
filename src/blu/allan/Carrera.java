@@ -5,10 +5,12 @@
  */
 package blu.allan;
 
+import blu.fabian.Persona;
+
 /**
  *
  * @author mc_ro
  */
 public class Carrera {
-    
+    private Persona decano;
 }
