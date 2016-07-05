@@ -5,10 +5,23 @@
  */
 package blu.fabian;
 
+import blu.allan.Carrera;
+import blu.manuel.Profesor;
+import java.util.ArrayList;
+
 /**
  *
  * @author mc_ro
  */
 public class Curso {
-    
+    private Carrera carrera;
+    private Profesor profesor;
+    private ArrayList<Horario> horarios;
+
+    public Curso(Carrera carrera, Profesor profesor, ArrayList<Horario> horarios) {
+        this.carrera = carrera;
+        this.profesor = profesor;
+        this.horarios = horarios;
+    }
+ 
 }

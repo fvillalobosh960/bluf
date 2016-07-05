@@ -5,10 +5,20 @@
  */
 package blu.fabian;
 
+import blu.allan.Contacto;
+
 /**
  *
  * @author mc_ro
  */
-public class Persona {
-    
+public class Persona extends Contacto {
+    private String apellido;
+    private boolean trabaja;
+
+    public Persona(String apellido, boolean trabaja, String nombre, String telefono, String email) {
+        super(nombre, telefono, email);
+        this.apellido = apellido;
+        this.trabaja = trabaja;
+    }
+ 
 }
